@@ -97,7 +97,7 @@ curseforge {
         id = '439897'
         changelog = 'A changelog can be found at https://github.com/Hexeption/ColouredBundles'
         releaseType = 'beta'
-        addGameVersion '1.17-Snapshot, Fabric'
+        addGameVersion '1.17'
         mainArtifact(remapJar) {
             displayName = "ColouredBundles v$version for $project.minecraft_version"
         }
