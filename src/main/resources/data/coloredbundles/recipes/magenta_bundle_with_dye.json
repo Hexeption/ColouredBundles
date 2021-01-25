@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "RWR",
+    "RRR"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "R": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "W": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "coloredbundles:magenta_bundle",
+    "count": 1
+  }
+}

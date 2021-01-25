@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "coloredbundles",
+  "version": "${version}",
+  "name": "ColoredBundles",
+  "description": "Does what you think",
+  "authors": [
+    "Hexeption"
+  ],
+  "contact": {
+    "homepage": "https://hexeption.dev",
+    "sources": "https://github.com/Hexeption/ColouredBundles"
+  },
+  "license": "GNU Public",
+  "icon": "assets/coloredbundles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "uk.co.hexeption.coloredbundles.ColoredBundles"
+    ],
+    "client": [
+      "uk.co.hexeption.coloredbundles.client.Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*",
+    "minecraft": ">=1.16-"
+  }
+}
