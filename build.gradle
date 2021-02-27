@@ -119,7 +119,7 @@ task publishModrinth (type: TaskModrinthUpload){
     }
     projectId = '70Jd8vSb'
     versionNumber = "$version"
-    uploadFile = jar
+    uploadFile = remapJar
     addGameVersion("$minecraft_version")
     addLoader('fabric')
 }
