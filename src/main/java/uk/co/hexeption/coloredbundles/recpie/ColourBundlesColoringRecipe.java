@@ -69,8 +69,8 @@ public class ColourBundlesColoringRecipe extends SpecialCraftingRecipe {
 		}
 
 		ItemStack itemStack3 = ColoredBundles.getBundleByDye(dyeItem.getColor()).getDefaultStack();
-		if (itemStack.hasTag()) {
-			itemStack3.setTag(itemStack.getTag().copy());
+		if (itemStack.hasNbt()) {
+			itemStack3.setNbt(itemStack.getNbt().copy());
 		}
 
 		return itemStack3;
