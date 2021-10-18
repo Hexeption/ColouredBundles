@@ -118,3 +118,23 @@ run/
 !gradle-wrapper.jar
 
 src/main/resources/assets/coloredbundles/textures/item/raw/
+
+build/
+*.ipr
+run/
+*.iws
+out/
+*.iml
+.gradle/
+output/
+bin/
+libs/
+
+.classpath
+.project
+.idea/
+classes/
+.metadata
+.vscode
+.settings
+*.launch

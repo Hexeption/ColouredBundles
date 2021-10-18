@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coloredbundles:item/light_grey_bundle"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "filled": 0.0000001
+      },
+      "model": "coloredbundles:item/light_grey_bundle_filled"
+    }
+  ]
+}

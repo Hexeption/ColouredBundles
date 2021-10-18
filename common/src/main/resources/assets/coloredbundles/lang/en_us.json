@@ -1,0 +1,19 @@
+{
+  "itemGroup.coloredbundles.group": "Colored Bundles",
+  "item.coloredbundles.white_bundle": "White Bundle",
+  "item.coloredbundles.orange_bundle": "Orange Bundle",
+  "item.coloredbundles.magenta_bundle": "Magenta Bundle",
+  "item.coloredbundles.light_blue_bundle": "Light Blue Bundle",
+  "item.coloredbundles.yellow_bundle": "Yellow Bundle",
+  "item.coloredbundles.lime_bundle": "Lime Bundle",
+  "item.coloredbundles.pink_bundle": "Pink Bundle",
+  "item.coloredbundles.grey_bundle": "Gray Bundle",
+  "item.coloredbundles.light_grey_bundle": "Light Gray Bundle",
+  "item.coloredbundles.cyan_bundle": "Cyan Bundle",
+  "item.coloredbundles.purple_bundle": "Purple Bundle",
+  "item.coloredbundles.blue_bundle": "Blue Bundle",
+  "item.coloredbundles.brown_bundle": "Brown Bundle",
+  "item.coloredbundles.green_bundle": "Green Bundle",
+  "item.coloredbundles.red_bundle": "Red Bundle",
+  "item.coloredbundles.black_bundle": "Black Bundle"
+}
