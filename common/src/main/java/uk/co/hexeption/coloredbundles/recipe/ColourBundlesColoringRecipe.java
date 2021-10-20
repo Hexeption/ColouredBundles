@@ -1,4 +1,4 @@
-package uk.co.hexeption.coloredbundles.recpie;
+package uk.co.hexeption.coloredbundles.recipe;
 
 import uk.co.hexeption.coloredbundles.ColoredBundles;
 

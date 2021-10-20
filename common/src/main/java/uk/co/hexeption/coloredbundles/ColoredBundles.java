@@ -4,7 +4,7 @@ package uk.co.hexeption.coloredbundles;
 import dev.architectury.registry.CreativeTabRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
-import uk.co.hexeption.coloredbundles.recpie.ColourBundlesColoringRecipe;
+import uk.co.hexeption.coloredbundles.recipe.ColourBundlesColoringRecipe;
 
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;

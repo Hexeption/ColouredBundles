@@ -138,3 +138,5 @@ classes/
 .vscode
 .settings
 *.launch
+
+*.aseprite
