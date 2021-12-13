@@ -22,7 +22,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
 
-    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-forge:6.0.298-alpha"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-forge:7.0.346"
 
     common(project(path: ":common", configuration: "dev")) {
         transitive = false
@@ -85,15 +85,15 @@ curseforge {
             id = "537933"
             releaseType = "release"
             changelog = 'A changelog can be found at https://github.com/Hexeption/ColouredBundles'
-            addGameVersion "1.17"
-            addGameVersion "1.17.1"
+            addGameVersion "1.18"
+            addGameVersion "1.18.1"
             addGameVersion "Java 8"
             addGameVersion "Forge"
             relations {
                 requiredDependency "architectury-forge"
             }
             mainArtifact(tasks.getByName("remapJar")) {
-                displayName = "[Forge 1.17.1] v$project.version"
+                displayName = "[Forge 1.18.1] v$project.version"
             }
         }
     }

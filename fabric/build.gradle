@@ -23,7 +23,7 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
-    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:6.0.298-alpha"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:7.0.352"
 
     common(project(path: ":common", configuration: "dev")) {
         transitive = false
@@ -84,14 +84,14 @@ curseforge {
             id = "439897"
             releaseType = "release"
             changelog = 'A changelog can be found at https://github.com/Hexeption/ColouredBundles'
-            addGameVersion "1.17"
+            addGameVersion "1.18"
             addGameVersion "Fabric"
             relations {
                 requiredDependency "architectury-fabric"
                 requiredDependency "fabric-api"
             }
             mainArtifact(tasks.getByName("remapJar")) {
-                displayName = "[Fabric 1.17.1] v$project.version"
+                displayName = "[Fabric 1.18.1] v$project.version"
             }
         }
     }
