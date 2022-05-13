@@ -23,14 +23,10 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
 
-    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:7.0.352"
+    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:8.1.457"
 
-    common(project(path: ":common", configuration: "dev")) {
-        transitive = false
-    }
-    shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) {
-        transitive = false
-    }
+    common(project(path: ":common", configuration: "namedElements")) { transitive false }
+    shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 }
 
 processResources {
@@ -91,7 +87,7 @@ curseforge {
                 requiredDependency "fabric-api"
             }
             mainArtifact(tasks.getByName("remapJar")) {
-                displayName = "[Fabric 1.18.1] v$project.version"
+                displayName = "[Fabric 1.18.2] v$project.version"
             }
         }
     }

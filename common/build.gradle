@@ -5,11 +5,11 @@ dependencies {
     // Remove the next line if you don't want to depend on the API
     modApi "dev.architectury:architectury:${rootProject.architectury_version}"
 
-    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api:6.0.298-alpha"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api:8.1.457"
 }
 
 architectury {
-    common()
+    common(rootProject.enabled_platforms.split(","))
 }
 
 configurations {
