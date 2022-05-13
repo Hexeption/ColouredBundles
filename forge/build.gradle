@@ -91,7 +91,7 @@ curseforge {
             addGameVersion "Java 17"
             addGameVersion "Forge"
             relations {
-                requiredDependency "architectury-forge"
+                requiredDependency "architectury-api"
             }
             mainArtifact(tasks.getByName("remapJar")) {
                 displayName = "[Forge 1.18.2] v$project.version"

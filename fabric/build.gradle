@@ -83,7 +83,7 @@ curseforge {
             addGameVersion "1.18"
             addGameVersion "Fabric"
             relations {
-                requiredDependency "architectury-fabric"
+                requiredDependency "architectury-api"
                 requiredDependency "fabric-api"
             }
             mainArtifact(tasks.getByName("remapJar")) {
