@@ -1,7 +1,6 @@
 package uk.co.hexeption.coloredbundles.forge;
 
 import dev.architectury.platform.forge.EventBuses;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -11,7 +10,6 @@ import uk.co.hexeption.coloredbundles.ColoredBundles;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BundleItem;
-import net.minecraft.world.item.crafting.RecipeSerializer;
 
 /**
  * ColoredBundlesForge
